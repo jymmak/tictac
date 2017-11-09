@@ -2,9 +2,10 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    background: white;
+    background: yellow;
     font-family:'Lato', 'Montserrat',sans-serif;
-    font-size: 40px;
+    font-size: 50px;
+
 }
 .board{
     margin: 80px auto;
@@ -12,8 +13,8 @@
     
 }
 .board td{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border:1px solid black;
     text-align:center;
     cursor: pointer;
@@ -34,21 +35,21 @@
     border-right:0;
 }
 h1{
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
+    color: blue;
 }
-button{
-    padding: 10px;
+.reset{
+    padding: 20px;
     border-radius: 6px;
-    background: #28ebe1;
+    background: #eb28b1;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-left:880px;
-    position: absolute;
     
 }
   
-button:active{
+.reset:active{
     background: #c2c514;
     color: #000000;
 }

@@ -1,24 +1,28 @@
-window.onload=function(){
-    var board=document.querySelector('.board-js');
+//DECLARACION DE OBJETOS Y VARIABLES
+var turn = 1;
+var whatturn;
+var arrag = new Array(9);
+var  cells=document.getElementsByClassName("michi");
+var  label = document.getElementsByClassName("michi")
 
-board.addEventListener('click',addX);
 
-};
-var centinel=false;
 
-function addX(event){
-    if(centinel)
-        event.target.textContent='X';
-    else
-        event.target.textContent='O';
-        centinel=!centinel;
+// DECLARANDO FUNCIONES 
+function winner(){
+
 }
 
-board.addEventListener('click',reset);
-function reset(){
-    var td = document.getElementsByTagName('td');
+function michi(){
 
-    for(var i = 0; i < td.length; i++){
-        td[i].innerHTML = ''
+}
+
+function loadDocument(){
+}
+    while (n<cells.length){
+       cells[n].addEventListener("click",michi);
     }
-}
+
+
+//ASIGNACION DE EVENTOS
+window.addEventListener("load", loadDocument);
+
