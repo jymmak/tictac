@@ -5,19 +5,20 @@
     background: yellow;
     font-family:'Lato', 'Montserrat',sans-serif;
     font-size: 50px;
-
 }
+
 .board{
-    margin: 80px auto;
+    margin: 60px auto;
     border-collapse: collapse;
     
 }
 .board td{
-    width: 120px;
+    width: 130px;
     height: 120px;
-    border:1px solid black;
+    border:5px solid #8107d3;
     text-align:center;
     cursor: pointer;
+
 }
 .board td:hover{
     background-color: #3c3c3c;
@@ -34,24 +35,42 @@
 .board tr td:last-child{
     border-right:0;
 }
+.play-x {
+    color: rgb(17, 226, 122);
+}
+.play-o {
+    color: rgb(201, 5, 5);
+}
+  
+
 h1{
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     color: blue;
+    
 }
-.reset{
+button{
     padding: 20px;
-    border-radius: 6px;
-    background: #eb28b1;
+    border-radius: 16px;
+    background: #9068ad;
     color: white;
     font-size: 25px;
-    margin-left:880px;
+    margin-left:1080px;
+    margin-bottom: 30px;
+    font-weight:bold;
+
     
 }
   
-.reset:active{
-    background: #c2c514;
+button:active{
+    background: #f7f7f2;
     color: #000000;
 }
-    
+p{
+    height: 25px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(0, 174, 255);
+    margin-left:600px;
+}
     
