@@ -41,7 +41,7 @@ function checkPlayer(value) {
 
             board.removeEventListener('click', addMove);
 
-        result.textContent = 'You win!!!!' + '           ' + value + '           ' + 'great';
+        result.textContent = 'You win!!!!' + '        '+ value + ' => ' + 'great';
 
     } else if (array[0] != null && array[1] != null && array[2] != null &&
         array[3] != null && array[4] != null && array[5] != null &&

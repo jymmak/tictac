@@ -8,7 +8,7 @@
 }
 
 .board{
-    margin: 60px auto;
+    margin: 50px auto;
     border-collapse: collapse;
     
 }
@@ -44,7 +44,7 @@
   
 
 h1{
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
     color: blue;
     
@@ -55,9 +55,9 @@ button{
     background: #9068ad;
     color: white;
     font-size: 25px;
-    margin-left:1080px;
-    margin-bottom: 30px;
+    margin-left:1050px;
     font-weight:bold;
+    position:relative;
 
     
 }
@@ -68,7 +68,7 @@ button:active{
 }
 p{
     height: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 40px;
     color: rgb(0, 174, 255);
     margin-left:600px;
